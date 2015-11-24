@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewDelegate>
 
+@property (nonatomic, retain) IBOutlet UIScrollView * scrollView;
+@property (nonatomic, retain) IBOutlet UIView * scrollContentView;
 
 @end
 

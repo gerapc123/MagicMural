@@ -16,6 +16,13 @@
 		8455D8221C04BAD100474856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455D8201C04BAD100474856 /* LaunchScreen.storyboard */; };
 		8455D82D1C04BAD100474856 /* MagicMuralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455D82C1C04BAD100474856 /* MagicMuralTests.m */; };
 		8455D8381C04BAD100474856 /* MagicMuralUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455D8371C04BAD100474856 /* MagicMuralUITests.m */; };
+		8455D84B1C04D25500474856 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455D8461C04D25500474856 /* icon1.png */; };
+		8455D84C1C04D25500474856 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455D8471C04D25500474856 /* icon2.png */; };
+		8455D84D1C04D25500474856 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455D8481C04D25500474856 /* icon3.png */; };
+		8455D84E1C04D25500474856 /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455D8491C04D25500474856 /* icon4.png */; };
+		8455D84F1C04D25500474856 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455D84A1C04D25500474856 /* icon5.png */; };
+		8455D8541C04F64A00474856 /* MMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455D8531C04F64A00474856 /* MMImageView.m */; };
+		8455D8571C04FDB900474856 /* MMEditBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455D8561C04FDB900474856 /* MMEditBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,16 @@
 		8455D8331C04BAD100474856 /* MagicMuralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicMuralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8455D8371C04BAD100474856 /* MagicMuralUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicMuralUITests.m; sourceTree = "<group>"; };
 		8455D8391C04BAD100474856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455D8461C04D25500474856 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		8455D8471C04D25500474856 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		8455D8481C04D25500474856 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		8455D8491C04D25500474856 /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		8455D84A1C04D25500474856 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		8455D8521C04F64A00474856 /* MMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMImageView.h; sourceTree = "<group>"; };
+		8455D8531C04F64A00474856 /* MMImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMImageView.m; sourceTree = "<group>"; };
+		8455D8551C04FDB900474856 /* MMEditBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEditBar.h; sourceTree = "<group>"; };
+		8455D8561C04FDB900474856 /* MMEditBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEditBar.m; sourceTree = "<group>"; };
+		8455D8581C050E5F00474856 /* MMEditBarDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMEditBarDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +124,9 @@
 				8455D8131C04BAD100474856 /* AppDelegate.m */,
 				8455D8151C04BAD100474856 /* ViewController.h */,
 				8455D8161C04BAD100474856 /* ViewController.m */,
+				8455D8501C04DE1F00474856 /* Model */,
+				8455D8511C04DE1F00474856 /* View */,
+				8455D8451C04D25500474856 /* Assets */,
 				8455D8181C04BAD100474856 /* Main.storyboard */,
 				8455D81E1C04BAD100474856 /* Assets.xcassets */,
 				8455D8201C04BAD100474856 /* LaunchScreen.storyboard */,
@@ -141,6 +161,37 @@
 				8455D8391C04BAD100474856 /* Info.plist */,
 			);
 			path = MagicMuralUITests;
+			sourceTree = "<group>";
+		};
+		8455D8451C04D25500474856 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8455D8461C04D25500474856 /* icon1.png */,
+				8455D8471C04D25500474856 /* icon2.png */,
+				8455D8481C04D25500474856 /* icon3.png */,
+				8455D8491C04D25500474856 /* icon4.png */,
+				8455D84A1C04D25500474856 /* icon5.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8455D8501C04DE1F00474856 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8455D8581C050E5F00474856 /* MMEditBarDelegate.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8455D8511C04DE1F00474856 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8455D8521C04F64A00474856 /* MMImageView.h */,
+				8455D8531C04F64A00474856 /* MMImageView.m */,
+				8455D8551C04FDB900474856 /* MMEditBar.h */,
+				8455D8561C04FDB900474856 /* MMEditBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8455D8221C04BAD100474856 /* LaunchScreen.storyboard in Resources */,
+				8455D84C1C04D25500474856 /* icon2.png in Resources */,
+				8455D84F1C04D25500474856 /* icon5.png in Resources */,
+				8455D84D1C04D25500474856 /* icon3.png in Resources */,
 				8455D81F1C04BAD100474856 /* Assets.xcassets in Resources */,
+				8455D84B1C04D25500474856 /* icon1.png in Resources */,
 				8455D81A1C04BAD100474856 /* Main.storyboard in Resources */,
+				8455D84E1C04D25500474856 /* icon4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8455D8541C04F64A00474856 /* MMImageView.m in Sources */,
 				8455D8171C04BAD100474856 /* ViewController.m in Sources */,
+				8455D8571C04FDB900474856 /* MMEditBar.m in Sources */,
 				8455D81D1C04BAD100474856 /* MagicMural.xcdatamodeld in Sources */,
 				8455D8141C04BAD100474856 /* AppDelegate.m in Sources */,
 				8455D8111C04BAD100474856 /* main.m in Sources */,
@@ -416,9 +474,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicMural/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ger-id.MagicMural";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -427,9 +487,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicMural/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ger-id.MagicMural";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -500,6 +562,7 @@
 				8455D83E1C04BAD100474856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8455D83F1C04BAD100474856 /* Build configuration list for PBXNativeTarget "MagicMuralTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +571,7 @@
 				8455D8411C04BAD100474856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8455D8421C04BAD100474856 /* Build configuration list for PBXNativeTarget "MagicMuralUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +580,7 @@
 				8455D8441C04BAD100474856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
